@@ -1,0 +1,20 @@
+inputDir: gs://lufermarltd/input/data/
+inputDbCat: gs://lufermarltd/input/db_catalog_small
+
+outputDir: gs://lufermarltd/output2/data/
+outputDbCat: gs://lufermarltd/output2/db_catalog
+outputSignalMap: gs://lufermarltd/output2/map
+tmpDir: gs://lufermarltd/output2/tmp
+
+# outputDir: hdfs:///user/lnicalo/output/data/
+#outputDbCat: hdfs:///user/lnicalo/output/db_catalog
+#outputSignalMap: hdfs:///user/lnicalo/output/map
+#tmpDir: hdfs:///user/lnicalo/output/tmp
+
+sessionIDColNameDbCat: id
+moduleColName: signal_name
+filesizeColName: size
+
+# Million of messages
+maxBatchSizeMillonOfMessages: 100000000000000
+minBatchTimeSeconds: 5

@@ -1,0 +1,15 @@
+inputDir: ./data/input/data/
+inputDbCat: ./data/input/db_catalog
+
+outputDir: ./data/output/data/
+outputDbCat: ./data/output/db_catalog
+outputSignalMap: ./data/output/map
+tmpDir: ./data/output/tmp
+
+sessionIDColNameDbCat: id
+moduleColName: signal_name
+filesizeColName: size
+
+# Million of messages
+maxBatchSizeMillonOfMessages: 10000000
+minBatchTimeSeconds: 5
